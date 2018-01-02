@@ -1,0 +1,24 @@
+{
+  "name": "refugees",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "heroku-postbuild":
+      "cd react-ui/ && npm install --only=dev && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veredrec/Refugees.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/veredrec/Refugees/issues"
+  },
+  "homepage": "https://github.com/veredrec/Refugees#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
